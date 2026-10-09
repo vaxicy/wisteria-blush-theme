@@ -1,0 +1,46 @@
+{
+  "name": "wisteria-blush-theme",
+  "displayName": "Wisteria Blush Theme",
+  "description": "Soft wisteria violet, dusty blush and peach in coordinated light and dark themes.",
+  "version": "1.0.0",
+  "publisher": "lilinhuang",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "light",
+    "dark",
+    "wisteria",
+    "purple",
+    "pink",
+    "pastel"
+  ],
+  "icon": "assets/icon.png",
+  "license": "SEE LICENSE IN LICENSE",
+  "galleryBanner": {
+    "color": "#302735",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vaxicy/wisteria-blush-theme"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Wisteria Blush Theme Light",
+        "uiTheme": "vs",
+        "path": "./themes/wisteria-blush-light-color-theme.json"
+      },
+      {
+        "label": "Wisteria Blush Theme Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/wisteria-blush-dark-color-theme.json"
+      }
+    ]
+  }
+}
